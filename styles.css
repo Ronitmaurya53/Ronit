@@ -1,0 +1,132 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and overall styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: yellowgreen;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: yellowgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    background: #333 url("https://4kwallpapers.com/images/wallpapers/illuminated-luxury-white-background-3d-background-sci-fi-3440x1440-7652.jpg") no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    background: linear-gradient(270deg,yellow,blue);
+    background-clip: text;
+    color: transparent;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#skills ul li {
+    background-color:aqua;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects .project {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#projects .project h3 {
+    font-size: 1.8rem;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body and font styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
